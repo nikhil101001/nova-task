@@ -35,11 +35,14 @@ export const ExploreSection = () => {
       </div>
 
       <div className="flex-1 w-full relative p-4 overflow-hidden">
-        <div className="lg:shadow-[120px_0px_85px_#000000_inset] shadow-[80px_0px_85px_#000000_inset] h-full w-full absolute top-0 left-0" />
-        <div className="flex gap-4 items-center">
-          <Section2Card />
-          <Section2Card />
-          <Section2Card />
+        <div className="lg:shadow-[120px_0px_85px_#000000_inset] shadow-[80px_0px_85px_#000000_inset] h-full w-full absolute top-0 left-0 z-10" />
+        <div className="carousel-container mx-auto">
+          <div className="flex gap-4 items-center carousel-items gap-x-8 w-full">
+            <Section2Card />
+            <Section2Card />
+            <Section2Card />
+            <Section2Card />
+          </div>
         </div>
         <div className="lg:shadow-[120px_0px_85px_#000000_inset] shadow-[80px_0px_85px_#000000_inset] h-full w-full absolute top-0 left-0 -scale-100" />
       </div>

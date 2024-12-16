@@ -31,3 +31,31 @@ html {
   border: 3px solid transparent;
   background-clip: content-box;
 }
+
+.carousel-container {
+  overflow: hidden; /* Hide the overflowing content */
+  position: relative;
+  width: 100%;
+}
+
+.carousel-items {
+  display: flex;
+  gap: 32px;
+  animation: scroll 20s linear infinite;
+  width: max-content; /* Ensures the content is wide enough to scroll */
+}
+
+.carousel-items:hover {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -25%
+    ); /* Adjust this value to match the duplicated content width */
+  }
+}
