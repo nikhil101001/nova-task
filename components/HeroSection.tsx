@@ -59,6 +59,8 @@ export const HeroSection = () => {
           width={900}
           height={500}
           className="mix-blend-screen"
+          quality={100}
+          priority
         />
       </div>
     </div>

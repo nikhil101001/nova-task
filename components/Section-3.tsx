@@ -36,6 +36,8 @@ export const ChartSection = () => {
           alt="Graph"
           width={1000}
           height={1000}
+          quality={100}
+          priority
           className="p-12 w-full object-contain min-h-[500px]"
         />
       </div>

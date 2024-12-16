@@ -9,6 +9,7 @@ export const Section2Card = () => {
         width={500}
         height={500}
         className="object-cover"
+        priority
       />
 
       <div className="flex flex-col gap-4 p-6 border-t border-primary">
