@@ -25,7 +25,7 @@ export const ChartSection = () => {
         />
       </div>
 
-      <div className="bg-[#191617] border-t border-primary relative w-[1000px] md:w-fit">
+      <div className="bg-[#191617] border-t border-primary relative w-[1000px] md:w-full">
         <div className="flex gap-8 justify-center items-center border border-primary rounded-xl p-4 px-8 w-fit md:mx-auto bg-[#191617] -mt-8 z-20 font-bold mx-8">
           <button>REDDIT SCENARIOS</button>
           <button>NOVA IN TELEGRAM</button>
