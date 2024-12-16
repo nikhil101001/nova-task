@@ -18,13 +18,13 @@ const Navbar = () => {
         <div className="hidden md:block">
           <ul className="flex space-x-11 items-center text-xl">
             <li className="hover:text-primary">
-              <Link href="/documentation">
+              <Link href="#">
                 <span>Documentation</span>
               </Link>
             </li>
 
             <li className="hover:text-primary">
-              <Link href="/#">
+              <Link href="#">
                 <span>SDK</span>
               </Link>
             </li>
