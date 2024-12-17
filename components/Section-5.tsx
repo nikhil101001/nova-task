@@ -15,7 +15,7 @@ export const Section5 = () => {
         />
       </div>
 
-      <div className="flex flex-col gap-6 flex-1 min-w-fit justify-center items-center x:justify-start xl:items-start">
+      <div className="flex flex-col gap-6 flex-1 min-w-fit justify-center items-center x:justify-start xl:items-start xl:ml-40">
         <Image
           src="/section-5/icon.png"
           alt="Hero icon"
