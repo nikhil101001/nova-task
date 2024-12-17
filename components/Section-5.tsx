@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Section5 = () => {
   return (
     <div className="text-white flex justify-between items-center flex-wrap-reverse gap-8">
-      <div className="xl:flex-1 items-center flex justify-center w-full max-w-xl mx-auto">
+      <div className="xl:flex-1 items-center flex justify-center w-full max-w-xl xl:max-w-full mx-auto">
         <Image
           src="/section-5/rocket-img.png"
           alt="Hero image"

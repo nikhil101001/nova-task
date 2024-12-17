@@ -41,7 +41,7 @@ export const Section4 = () => {
         </div>
       </div>
 
-      <div className="xl:flex-1 items-center flex justify-center w-full max-w-xl mx-auto">
+      <div className="xl:flex-1 items-center flex justify-center w-full max-w-xl mx-auto xl:max-w-full">
         <Image
           src="/section-4/image.png"
           alt="Hero image"

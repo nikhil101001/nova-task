@@ -52,7 +52,7 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="xl:flex-1 items-center flex justify-center w-full max-w-xl mx-auto">
+      <div className="xl:flex-1 items-center flex justify-center w-full max-w-xl xl:max-w-full mx-auto">
         <Image
           src="/hero-img.png"
           alt="Hero image"
