@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Nova",
   description: "Welcome to Nova: Your Portal to AI Gaming",
   icons: {
-    icon: "/assets/hero-icon.png",
+    icon: "/hero-icon.png",
   },
 };
 

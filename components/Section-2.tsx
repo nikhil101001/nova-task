@@ -6,12 +6,7 @@ export const ExploreSection = () => {
   return (
     <div className="flex items-center gap-8 flex-col xl:flex-row">
       <div className="flex flex-col gap-8 max-w-sm items-center justify-center text-center xl:items-start xl:text-start">
-        <Image
-          src="/assets/section-2/icon.png"
-          alt="Icon"
-          width={50}
-          height={50}
-        />
+        <Image src="/section-2/icon.png" alt="Icon" width={50} height={50} />
         <p className="text-3xl xl:text-5xl font-bold text-primary hidden xl:block">
           Explore Our Suite of AI Agent Products
         </p>

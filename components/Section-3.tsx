@@ -4,20 +4,22 @@ import React from "react";
 export const ChartSection = () => {
   return (
     <div className="text-primary border-2 border-primary rounded-xl overflow-hidden">
-      <div className="flex flex-col gap-4 p-20 px-4 justify-center items-center bg-black bg-gradient-to-r from-[#05D37140] to-[#0A8B4E40] relative overflow-hidden">
+      <div className="flex flex-col gap-4 xl:p-20 p-16 px-4 justify-center items-center bg-black bg-gradient-to-r from-[#05D37140] to-[#0A8B4E40] relative overflow-hidden">
         <Image
-          src="/assets/section-3/header-grain.png"
+          src="/section-3/header-grain.png"
           alt="Header grain"
           width={800}
           height={800}
           className="mix-blend-screen absolute -top-[80%] -left-[15%] rotate-90"
         />
-        <h2 className="text-5xl font-bold text-primary text-center">
+        <h2 className="text-4xl xl:text-5xl font-bold text-primary text-center">
           Powered by $NOVA
         </h2>
-        <p className="text-center">Compare AI tokens and their MCAPs</p>
+        <p className="text-center text-base xl:text-lg text-white">
+          Compare AI tokens and their MCAPs
+        </p>
         <Image
-          src="/assets/section-3/header-grain.png"
+          src="/section-3/header-grain.png"
           alt="Header grain"
           width={800}
           height={800}
@@ -32,7 +34,7 @@ export const ChartSection = () => {
           <button>ME TELEGRAM APP</button>
         </div>
         <Image
-          src="/assets/section-3/graph.png"
+          src="/section-3/graph.png"
           alt="Graph"
           width={1000}
           height={1000}
