@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Section2Card } from "./Section2Card";
+import { homeProducts } from "@/util/data";
 
 export const ExploreSection = () => {
   return (
@@ -34,14 +35,13 @@ export const ExploreSection = () => {
         </p>
       </div>
 
-      <div className="flex-1 w-full relative p-4 overflow-hidden">
+      <div className="flex-1 w-full relative p-4 overflow-hidden group">
         <div className="lg:shadow-[120px_0px_85px_#000000_inset] shadow-[80px_0px_85px_#000000_inset] h-full w-full absolute top-0 left-0 z-10" />
         <div className="carousel-container mx-auto">
-          <div className="flex gap-4 items-center carousel-items gap-x-8 w-full">
-            <Section2Card />
-            <Section2Card />
-            <Section2Card />
-            <Section2Card />
+          <div className="flex gap-4 h-full carousel-items gap-x-8 w-full group-hover:pause">
+            {[...homeProducts, ...homeProducts].map((product, index) => (
+              <Section2Card key={index} product={product} />
+            ))}
           </div>
         </div>
         <div className="lg:shadow-[120px_0px_85px_#000000_inset] shadow-[80px_0px_85px_#000000_inset] h-full w-full absolute top-0 left-0 -scale-100" />
