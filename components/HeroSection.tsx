@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const HeroSection = () => {
   return (
-    <div className="text-white flex justify-between items-center flex-wrap-reverse gap-8">
+    <div className="text-white flex justify-between items-center flex-wrap-reverse gap-8 mt-16">
       <div className="flex flex-col gap-6 flex-1 min-w-fit">
         <Image
           src="/hero-icon.png"
