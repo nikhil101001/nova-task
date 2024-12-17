@@ -41,7 +41,7 @@ html {
 .carousel-items {
   display: flex;
   gap: 32px;
-  animation: scroll 8s linear infinite;
+  animation: scroll 20s linear infinite;
   width: max-content; /* Ensures the content is wide enough to scroll */
 }
 
@@ -55,7 +55,13 @@ html {
   }
   100% {
     transform: translateX(
-      -25.5%
+      -50.5%
     ); /* Adjust this value to match the duplicated content width */
+  }
+}
+
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
   }
 }
